@@ -1,0 +1,998 @@
+{
+ "va-55": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1800,
+   "h": 913,
+   "sw": 760,
+   "sh": 386,
+   "cap": "VA-55: VTOL rotors on twin booms for take-off and landing, and a fixed wing for cruise."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1800,
+   "h": 1274,
+   "sw": 760,
+   "sh": 538,
+   "cap": "Exhibition poster: specifications, engineering rationale, business case, concept of operations, regulatory compliance and roadmap."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 1800,
+   "h": 1010,
+   "sw": 760,
+   "sh": 426,
+   "cap": "The image we used to sum up VA-55's key figures."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 1800,
+   "h": 735,
+   "sw": 760,
+   "sh": 311,
+   "cap": "Requirements compliance matrix, updated for every design iteration. Green: met. Yellow: partly met. Red: not met. Blue: not yet calculated."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 1800,
+   "h": 1273,
+   "sw": 760,
+   "sh": 538,
+   "cap": "General arrangement drawing. The datum sits at the wing leading edge, and the drawing carries custom tolerances and the CoG positions with and without payload."
+  },
+  {
+   "src": "6.jpg",
+   "sm": "6-sm.jpg",
+   "w": 1800,
+   "h": 1273,
+   "sw": 760,
+   "sh": 538,
+   "cap": "Tail-to-VTOL-boom interface drawing. A second trade study after PDR moved the cruise motor and changed the layout."
+  },
+  {
+   "src": "7.jpg",
+   "sm": "7-sm.jpg",
+   "w": 1348,
+   "h": 954,
+   "sw": 760,
+   "sh": 538,
+   "cap": "Transport dimensions: every part was checked against the transport van, and the tailplane was redesigned to fit."
+  },
+  {
+   "src": "8.jpg",
+   "sm": "8-sm.jpg",
+   "w": 1348,
+   "h": 954,
+   "sw": 760,
+   "sh": 538,
+   "cap": "Exploded view of the full aircraft."
+  },
+  {
+   "src": "9.jpg",
+   "sm": "9-sm.jpg",
+   "w": 1562,
+   "h": 926,
+   "sw": 760,
+   "sh": 451,
+   "cap": "Benchmark against four quadcopter sprayers and the fixed-wing Pyka Pelican, using their published specifications."
+  },
+  {
+   "src": "10.jpg",
+   "sm": "10-sm.jpg",
+   "w": 1288,
+   "h": 911,
+   "sw": 760,
+   "sh": 538,
+   "cap": "Quick-disconnect joint: titanium adaptors bonded into the carbon-fibre booms take a threaded connector and tightener."
+  },
+  {
+   "src": "11.jpg",
+   "sm": "11-sm.jpg",
+   "w": 1287,
+   "h": 911,
+   "sw": 760,
+   "sh": 538,
+   "cap": "Step-by-step assembly guide for joining the tail and booms on site before each flight."
+  }
+ ],
+ "andel-bundguard": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 599,
+   "h": 857,
+   "sw": 531,
+   "sh": 760,
+   "cap": "BundGuard variants built from one main body with bolted brackets."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 515,
+   "h": 850,
+   "sw": 460,
+   "sh": 760,
+   "cap": "Main body with the probes on a removable sensor card."
+  }
+ ],
+ "andel-products": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 806,
+   "h": 660,
+   "sw": 760,
+   "sh": 622,
+   "cap": "Gully flood sensor enclosure, redesigned for quick installation with few tools and no specialist staff."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 808,
+   "h": 660,
+   "sw": 760,
+   "sh": 621,
+   "cap": "Too big for the SLS printer, so the enclosure was designed for FDM: 45\u00b0 chamfers under overhangs, break-away support walls and a chosen print orientation."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 967,
+   "h": 859,
+   "sw": 760,
+   "sh": 675,
+   "cap": "CellarGuard, redesigned for easier assembly and still compatible with the old mounting."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 1399,
+   "h": 863,
+   "sw": 760,
+   "sh": 469,
+   "cap": "Panel-drilling jig that standardises hand-machined parts."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 721,
+   "h": 857,
+   "sw": 639,
+   "sh": 760,
+   "cap": "FlowStop 2 enclosure: about 20% more compact, with the valve turned horizontal and a contoured base so it only fits the right way round."
+  },
+  {
+   "src": "6.jpg",
+   "sm": "6-sm.jpg",
+   "w": 595,
+   "h": 857,
+   "sw": 528,
+   "sh": 760,
+   "cap": "Circuitry enclosure adapted for SLS printing: powder drainage, print orientation and warping."
+  },
+  {
+   "src": "7.jpg",
+   "sm": "7-sm.jpg",
+   "w": 498,
+   "h": 1279,
+   "sw": 296,
+   "sh": 760,
+   "cap": "Water-quality sensor: every sensor packed into the tight space of a bollard that moves with the water level."
+  },
+  {
+   "src": "8.jpg",
+   "sm": "8-sm.jpg",
+   "w": 582,
+   "h": 1303,
+   "sw": 339,
+   "sh": 760,
+   "cap": "Bollard changes designed around the supplier's limited tooling."
+  },
+  {
+   "src": "9.jpg",
+   "sm": "9-sm.jpg",
+   "w": 375,
+   "h": 1324,
+   "sw": 215,
+   "sh": 760,
+   "cap": "Sensor housing, with approximate sizes for PCBs and connectors that were not yet designed."
+  },
+  {
+   "src": "10.jpg",
+   "sm": "10-sm.jpg",
+   "w": 1282,
+   "h": 1800,
+   "sw": 541,
+   "sh": 760,
+   "cap": "My placement poster: one page covering my work on four Andel products."
+  }
+ ],
+ "lego-trent-xwb": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1760,
+   "h": 1320,
+   "sw": 760,
+   "sh": 570,
+   "cap": "Over 1,000 pieces, designed in about a week."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1307,
+   "h": 980,
+   "sw": 760,
+   "sh": 570,
+   "cap": "Front view of the fan."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 936,
+   "h": 702,
+   "sw": 760,
+   "sh": 570,
+   "cap": "Openable cowling, showing the internal engine structure."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 933,
+   "h": 516,
+   "sw": 760,
+   "sh": 420,
+   "cap": "Side view with the cowling and thrust reverser."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 1752,
+   "h": 1314,
+   "sw": 760,
+   "sh": 570,
+   "cap": "Rear view of the core and exhaust cone."
+  },
+  {
+   "src": "6.jpg",
+   "sm": "6-sm.jpg",
+   "w": 944,
+   "h": 708,
+   "sw": 760,
+   "sh": 570,
+   "cap": "Shaft with the fan, compressor and turbine stages."
+  },
+  {
+   "src": "7.jpg",
+   "sm": "7-sm.jpg",
+   "w": 790,
+   "h": 592,
+   "sw": 760,
+   "sh": 570,
+   "cap": "Core with the stator vanes, cowling removed."
+  },
+  {
+   "src": "8.jpg",
+   "sm": "8-sm.jpg",
+   "w": 1800,
+   "h": 1125,
+   "sw": 760,
+   "sh": 475,
+   "cap": "Designed part by part in BrickLink Studio."
+  }
+ ],
+ "chargepoint": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 766,
+   "h": 452,
+   "sw": 760,
+   "sh": 448,
+   "cap": "Sensor box, first versions: 150 mm, 200 mm and single-sensor boxes."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 489,
+   "h": 449,
+   "sw": 489,
+   "sh": 449,
+   "cap": "Sensor box, first versions."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 547,
+   "h": 550,
+   "sw": 547,
+   "sh": 550,
+   "cap": "Final sensor box: re-orienting the open/closed sensors onto one plane halved its size."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 504,
+   "h": 550,
+   "sw": 504,
+   "sh": 550,
+   "cap": "Final sensor box: inside view."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 1796,
+   "h": 688,
+   "sw": 760,
+   "sh": 291,
+   "cap": "316 stainless steel test frame for a 100 kg product on an IBC."
+  },
+  {
+   "src": "6.jpg",
+   "sm": "6-sm.jpg",
+   "w": 1336,
+   "h": 612,
+   "sw": 760,
+   "sh": 348,
+   "cap": "The frame in use: it fitted the IBC and held the full 100 kg load."
+  },
+  {
+   "src": "7.jpg",
+   "sm": "7-sm.jpg",
+   "w": 1447,
+   "h": 852,
+   "sw": 760,
+   "sh": 447,
+   "cap": "Valve lifting points: the handles were confirmed as safe lifting points with a large margin."
+  },
+  {
+   "src": "8.jpg",
+   "sm": "8-sm.jpg",
+   "w": 684,
+   "h": 785,
+   "sw": 662,
+   "sh": 760,
+   "cap": "Eyebolt handle variant: one eyebolt can carry more than the heaviest valve."
+  },
+  {
+   "src": "9.jpg",
+   "sm": "9-sm.jpg",
+   "w": 1297,
+   "h": 965,
+   "sw": 760,
+   "sh": 565,
+   "cap": "Compensator variant with steel springs."
+  },
+  {
+   "src": "10.jpg",
+   "sm": "10-sm.jpg",
+   "w": 260,
+   "h": 961,
+   "sw": 206,
+   "sh": 760,
+   "cap": "Spring and sealed spring cover, designed with the ChargeBag (plastics) engineers."
+  },
+  {
+   "src": "11.jpg",
+   "sm": "11-sm.jpg",
+   "w": 1100,
+   "h": 911,
+   "sw": 760,
+   "sh": 629,
+   "cap": "PuroGrab with the vibratory attachment."
+  },
+  {
+   "src": "12.jpg",
+   "sm": "12-sm.jpg",
+   "w": 1433,
+   "h": 882,
+   "sw": 760,
+   "sh": 468,
+   "cap": "Bracket that fits a vibratory piston to the PuroGrab holder."
+  }
+ ],
+ "tailfin": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1160,
+   "h": 757,
+   "sw": 760,
+   "sh": 496,
+   "cap": "Brief: an adjustable version of Tailfin's AeroPack seat-post-to-pack connector."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1536,
+   "h": 801,
+   "sw": 760,
+   "sh": 396,
+   "cap": "Product design specification (part 1): function, mounting, strength."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 1536,
+   "h": 475,
+   "sw": 760,
+   "sh": 235,
+   "cap": "Product design specification (part 2): manufacture and user experience."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 1562,
+   "h": 839,
+   "sw": 760,
+   "sh": 408,
+   "cap": "Concept selection: each concept scored against the datum (Concept 5) on every criterion."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 1175,
+   "h": 839,
+   "sw": 760,
+   "sh": 543,
+   "cap": "Concepts 4 and 6 scored highest, so both became final designs."
+  },
+  {
+   "src": "6.jpg",
+   "sm": "6-sm.jpg",
+   "w": 1800,
+   "h": 591,
+   "sw": 760,
+   "sh": 249,
+   "cap": "Final design, Concept 4: a 128 g tool-less aluminium connector with \u00b190\u00b0 of motion at the seat post and 180\u00b0 at the pack bracket."
+  },
+  {
+   "src": "7.jpg",
+   "sm": "7-sm.jpg",
+   "w": 1800,
+   "h": 674,
+   "sw": 760,
+   "sh": 285,
+   "cap": "Final design, Concept 6: a lower-cost connector whose length is set through ratcheted holes."
+  }
+ ],
+ "wing-design": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1800,
+   "h": 1274,
+   "sw": 760,
+   "sh": 538,
+   "cap": "Mass-optimised wing panel; the code generated this final model automatically."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1797,
+   "h": 980,
+   "sw": 760,
+   "sh": 414,
+   "cap": "Flowchart of the script sequence that produced the final design."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 572,
+   "h": 320,
+   "sw": 572,
+   "sh": 320,
+   "cap": "Reserve factors as the stiffener width changes. A design passed only when every reserve factor was above 1."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 1080,
+   "h": 320,
+   "sw": 760,
+   "sh": 225,
+   "cap": "Mass and thickness against stiffener width."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 1033,
+   "h": 648,
+   "sw": 760,
+   "sh": 477,
+   "cap": "Skin laminate stacking sequence, chosen by my function following industry laminate rules."
+  },
+  {
+   "src": "6.jpg",
+   "sm": "6-sm.jpg",
+   "w": 1040,
+   "h": 648,
+   "sw": 760,
+   "sh": 474,
+   "cap": "Stiffener laminate stacking sequence."
+  },
+  {
+   "src": "7.jpg",
+   "sm": "7-sm.jpg",
+   "w": 1520,
+   "h": 281,
+   "sw": 760,
+   "sh": 141,
+   "cap": "The laminate design is 25% lighter per unit area than the aluminium panel."
+  }
+ ],
+ "team-bath-drones": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1439,
+   "h": 719,
+   "sw": 760,
+   "sh": 380,
+   "cap": "Fixed-wing water-drop drone, designed to carry 4 kg of water."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1088,
+   "h": 652,
+   "sw": 760,
+   "sh": 455,
+   "cap": "The aircraft from above."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 1127,
+   "h": 648,
+   "sw": 760,
+   "sh": 437,
+   "cap": "The aircraft from below."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 1249,
+   "h": 719,
+   "sw": 760,
+   "sh": 438,
+   "cap": "Model used for the preliminary aerodynamic analysis."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 724,
+   "h": 419,
+   "sw": 724,
+   "sh": 419,
+   "cap": "Aerofoil analysis."
+  },
+  {
+   "src": "6.jpg",
+   "sm": "6-sm.jpg",
+   "w": 724,
+   "h": 419,
+   "sw": 724,
+   "sh": 419,
+   "cap": "Lift and drag estimates."
+  },
+  {
+   "src": "7.jpg",
+   "sm": "7-sm.jpg",
+   "w": 724,
+   "h": 419,
+   "sw": 724,
+   "sh": 419,
+   "cap": "Aerofoil comparison."
+  }
+ ],
+ "machine-design": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1279,
+   "h": 911,
+   "sw": 760,
+   "sh": 541,
+   "cap": "Autonomous battery-pack assembly line, built around off-the-shelf components."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 615,
+   "h": 640,
+   "sw": 615,
+   "sh": 640,
+   "cap": "FEA of a critical part."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 1655,
+   "h": 660,
+   "sw": 760,
+   "sh": 303,
+   "cap": "FEA of a critical part under load."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 907,
+   "h": 640,
+   "sw": 760,
+   "sh": 536,
+   "cap": "Engineering drawing from the full set."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 907,
+   "h": 640,
+   "sw": 760,
+   "sh": 536,
+   "cap": "Engineering drawing from the full set."
+  }
+ ],
+ "matlab": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1544,
+   "h": 560,
+   "sw": 760,
+   "sh": 276,
+   "cap": "Re-entry simulation: Space Shuttle heat tile temperatures, run from its own GUI."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1450,
+   "h": 740,
+   "sw": 760,
+   "sh": 388,
+   "cap": "Weather balloon simulation: the balloon's path in the wind."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 1180,
+   "h": 740,
+   "sw": 760,
+   "sh": 477,
+   "cap": "Weather balloon problem set-up."
+  }
+ ],
+ "shaft-design": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1696,
+   "h": 1314,
+   "sw": 760,
+   "sh": 589,
+   "cap": "Snowmobile drive shaft, optimised for low weight."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1000,
+   "h": 708,
+   "sw": 760,
+   "sh": 538,
+   "cap": "Shaft drawing."
+  }
+ ],
+ "product-design": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1087,
+   "h": 1340,
+   "sw": 617,
+   "sh": 760,
+   "cap": "Device that helps elderly users open medicine bottles."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 781,
+   "h": 782,
+   "sw": 759,
+   "sh": 760,
+   "cap": "Section view: compliant mechanisms provide the main function."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 781,
+   "h": 782,
+   "sw": 759,
+   "sh": 760,
+   "cap": "Section view of the mechanism engaging the bottle."
+  }
+ ],
+ "dragster": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 786,
+   "h": 660,
+   "sw": 760,
+   "sh": 638,
+   "cap": "Spring-powered balsa-wood dragster."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1800,
+   "h": 631,
+   "sw": 760,
+   "sh": 267,
+   "cap": "The dragster, side view."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 724,
+   "h": 640,
+   "sw": 724,
+   "sh": 640,
+   "cap": "Spring and axle detail."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 690,
+   "h": 640,
+   "sw": 690,
+   "sh": 640,
+   "cap": "The competition track. We placed 1st out of 68 groups."
+  }
+ ],
+ "design-and-make": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1213,
+   "h": 911,
+   "sw": 760,
+   "sh": 571,
+   "cap": "The machine the team built and tested the following year."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1307,
+   "h": 911,
+   "sw": 760,
+   "sh": 530,
+   "cap": "CAD model of the cone-dispensing machine in Inventor."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 1017,
+   "h": 673,
+   "sw": 760,
+   "sh": 503,
+   "cap": "Main mechanisms inside the machine."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 1017,
+   "h": 627,
+   "sw": 760,
+   "sh": 469,
+   "cap": "Drive mechanism."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 1680,
+   "h": 1191,
+   "sw": 760,
+   "sh": 539,
+   "cap": "Exploded assembly drawing."
+  }
+ ],
+ "gearbox-actuator": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1109,
+   "h": 693,
+   "sw": 760,
+   "sh": 475,
+   "cap": "Working CAD model of an epicyclic gearbox."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1580,
+   "h": 693,
+   "sw": 760,
+   "sh": 333,
+   "cap": "Exploded view of the gearbox, also animated."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 1678,
+   "h": 1260,
+   "sw": 760,
+   "sh": 571,
+   "cap": "Gearbox drawing: half section with balloon references."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 997,
+   "h": 1272,
+   "sw": 596,
+   "sh": 760,
+   "cap": "Gearbox drawing: end view."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 1800,
+   "h": 1252,
+   "sw": 760,
+   "sh": 529,
+   "cap": "Isometric quarter section of a pneumatic actuator, drawn by hand from its 2D engineering drawings."
+  }
+ ],
+ "extended-essay": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1094,
+   "h": 686,
+   "sw": 760,
+   "sh": 477,
+   "cap": "Recording the test rig in Logic Pro."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1094,
+   "h": 615,
+   "sw": 760,
+   "sh": 427,
+   "cap": "Frequency spectra compared across the tests."
+  }
+ ],
+ "physics-ia": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1145,
+   "h": 870,
+   "sw": 760,
+   "sh": 577,
+   "cap": "A rigid paper parachute."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 752,
+   "h": 1338,
+   "sw": 427,
+   "sh": 760,
+   "cap": "Drop test with my own apparatus."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 752,
+   "h": 1338,
+   "sw": 427,
+   "sh": 760,
+   "cap": "Measuring the terminal velocity."
+  }
+ ],
+ "lego-star-trek": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1098,
+   "h": 618,
+   "sw": 760,
+   "sh": 428,
+   "cap": "A finished starship model."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1598,
+   "h": 712,
+   "sw": 760,
+   "sh": 339,
+   "cap": "Scaling the design from reference images to match the ship's proportions."
+  }
+ ],
+ "guitar": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 961,
+   "h": 1281,
+   "sw": 570,
+   "sh": 760,
+   "cap": "The finished guitar, still my main instrument."
+  },
+  {
+   "src": "2.jpg",
+   "sm": "2-sm.jpg",
+   "w": 1038,
+   "h": 668,
+   "sw": 760,
+   "sh": 489,
+   "cap": "Paint concepts, part of the 20 I drew."
+  },
+  {
+   "src": "3.jpg",
+   "sm": "3-sm.jpg",
+   "w": 1038,
+   "h": 633,
+   "sw": 760,
+   "sh": 463,
+   "cap": "More paint concepts."
+  },
+  {
+   "src": "4.jpg",
+   "sm": "4-sm.jpg",
+   "w": 1658,
+   "h": 934,
+   "sw": 760,
+   "sh": 428,
+   "cap": "Shortlisted paint concepts."
+  },
+  {
+   "src": "5.jpg",
+   "sm": "5-sm.jpg",
+   "w": 1397,
+   "h": 988,
+   "sw": 760,
+   "sh": 537,
+   "cap": "Wiring diagram for 10 sound combinations."
+  },
+  {
+   "src": "6.jpg",
+   "sm": "6-sm.jpg",
+   "w": 1260,
+   "h": 945,
+   "sw": 760,
+   "sh": 570,
+   "cap": "Rewiring the electronics."
+  },
+  {
+   "src": "7.jpg",
+   "sm": "7-sm.jpg",
+   "w": 720,
+   "h": 1281,
+   "sw": 427,
+   "sh": 760,
+   "cap": "Finished guitar with the new hardware and neck."
+  },
+  {
+   "src": "8.jpg",
+   "sm": "8-sm.jpg",
+   "w": 960,
+   "h": 1281,
+   "sw": 570,
+   "sh": 760,
+   "cap": "Finished guitar."
+  }
+ ],
+ "_me": {
+  "w": 667,
+  "h": 900
+ }
+}

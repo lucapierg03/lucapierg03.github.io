@@ -1,0 +1,462 @@
+# Site content. Every claim here comes from Luca's portfolio (Portfolio Master 2026),
+# his UK/EU master CVs (13 Oct 2026) or the evidence bank. ChargePoint stays generic (NDA).
+
+PERSON = {
+    "name": "Luca Piergentili",
+    "degree": "MEng Aerospace Engineering",
+    "uni": "University of Bath",
+    "grad": "Graduating July 2027",
+    "email": "lucapierg03@gmail.com",
+    "phone": "+41 78 729 31 25",
+    "phone_href": "+41787293125",
+    "linkedin": "https://www.linkedin.com/in/lucapiergentili",
+    "linkedin_label": "linkedin.com/in/lucapiergentili",
+}
+
+CHAPTERS = [
+    ("standout", "Standout"),
+    ("professional", "Professional"),
+    ("university", "University"),
+    ("school", "School"),
+    ("hobbies", "Hobbies"),
+]
+
+HOME_LEAD = ("Aerospace engineering student at the University of Bath, graduating in July 2027 "
+             "with a predicted First. I like design problems that end with something built and used: "
+             "a hybrid VTOL crop-spraying drone, sensor enclosures approved for commercial use, "
+             "and a 1,000-piece LEGO jet engine.")
+
+HOME_STATS = [
+    ("76%", "First for VA-55, where I was project manager and technical integrator"),
+    ("67%", "smaller footprint from my self-initiated BundGuard redesign at Andel"),
+    ("247", "Service Bulletins assessed as applicable to an E190 fleet at Avia Seven"),
+    ("1 month", "to deliver a company-wide product database planned for six"),
+]
+
+ABOUT = [
+    "I'm Luca, a final-year MEng Aerospace Engineering student at the University of Bath, graduating in July 2027 "
+    "with a predicted First. I'm Italian and have lived in Geneva since 2009.",
+    "My year in industry was split between two placements. At ChargePoint Technology in Liverpool I designed "
+    "equipment around pharmaceutical containment valves in SolidWorks and automated the company's product database. "
+    "At Andel in Barnsley I redesigned enclosures for leak-detection and flood-protection products, including a gully "
+    "flood sensor approved for commercial use and a self-initiated redesign of the flagship BundGuard. In summer 2026 "
+    "I worked in continuing airworthiness at Avia Seven and Marathon Airlines in Athens, assessing Service Bulletins "
+    "and maintenance programmes for Embraer jets.",
+    "At university I was project manager and technical integrator of VA-55, a hybrid VTOL crop-spraying drone. "
+    "This year my final-year project investigates serrated wingtip devices, using Ansys CFD and wind tunnel testing.",
+    "Outside engineering I design LEGO models, play volleyball, and record and produce my own music.",
+]
+
+SKILLS = [
+    ("CAD and drawings", ["Fusion 360 (parametric configurations)", "SolidWorks", "Inventor Professional",
+                          "Technical drawings, incl. welding symbols and tolerancing", "BrickLink Studio"]),
+    ("Analysis and simulation", ["MATLAB", "Python", "FEA", "Hand calculations: beams, bolts, springs",
+                                 "Ansys CFD (intermediate)", "XFLR5 (early user)"]),
+    ("Design and manufacture", ["Product design", "DFM and DFA", "Design for SLS and FDM printing",
+                                "Jigs and fixtures", "Welded structures"]),
+    ("Aircraft and airworthiness", ["Conceptual aircraft design", "Systems integration", "Requirements management",
+                                    "Service Bulletin evaluation", "Maintenance programmes (AMP, MPD)"]),
+    ("Project and team", ["Project management", "Team leadership", "Technical documentation", "Presenting"]),
+    ("Software", ["Excel (advanced functions and automation)", "Word, PowerPoint, Visio", "Logic Pro"]),
+]
+
+LANGUAGES = [("Italian", "Native"), ("English", "C2"), ("French", "B2"), ("German", "A1")]
+
+EXPERIENCE = [
+    {
+        "org": "Avia Seven and Marathon Airlines",
+        "place": "Athens, Greece",
+        "role": "CAMO Engineering Intern",
+        "dates": "Jun – Sep 2026",
+        "about": "Continuing-airworthiness organisation and airline operating Embraer E-Jets and Legacy 600 business jets.",
+        "points": [
+            "Assessed Embraer E190 and Legacy 600 Service Bulletins for applicability and safety impact; identified 247 applicable E190 SBs and planned their implementation with the CAMO manager.",
+            "Cross-checked an E190 maintenance programme against Embraer's MPD and logged 16 discrepancies, which the CAMO manager corrected.",
+            "Built an Excel tool to merge the maintenance programmes of an aircraft transferring from another CAMO, flagging duplicate and missing tasks automatically.",
+            "Categorised Trieste airport (Category B) for the airline's E-Jet and Legacy 600 operations.",
+        ],
+        "links": [("avia-seven", "Internship summary")],
+    },
+    {
+        "org": "Andel Ltd",
+        "place": "Barnsley, UK",
+        "role": "Product Design Engineer (industrial placement)",
+        "dates": "Mar – Aug 2025",
+        "about": "Leak-detection and flood-protection products for industry and utilities.",
+        "points": [
+            "Self-initiated the redesign of the flagship BundGuard: one sensor body with bolted brackets for every variant, a 67% smaller footprint, approved for adoption.",
+            "Redesigned the gully flood sensor enclosure for fast installation without road closures; field-tested and approved for commercial use.",
+            "Made the FlowStop 2 enclosure 20% more compact and moved its production in-house on SLS.",
+            "Built parametric CAD models for three product families, plus jigs and build documents for Production.",
+        ],
+        "links": [("andel-bundguard", "BundGuard redesign"), ("andel-products", "Four more Andel products")],
+        "poster": True,
+    },
+    {
+        "org": "ChargePoint Technology",
+        "place": "Liverpool, UK",
+        "role": "Design Engineer (industrial placement)",
+        "dates": "Aug 2024 – Feb 2025",
+        "about": "Containment and sterile-transfer valves for pharmaceutical manufacturing.",
+        "points": [
+            "Automated the company-wide product and item databases by decoding product codes in Excel; delivered the first version in one month against a six-month plan.",
+            "Investigated a valve failure, designing tests to recreate the conditions and proposing design fixes to the R&D team.",
+            "Halved the size of a product's sensor box for a customer's space-limited plant.",
+            "Designed a stainless-steel test frame for a 100 kg product (beam theory and FEA) and a lifting-eye handle later used on a customer order.",
+        ],
+        "links": [("chargepoint", "ChargePoint projects")],
+    },
+    {
+        "org": "Tailfin",
+        "place": "University of Bath, Year 1",
+        "role": "@Home Design Challenge",
+        "dates": "2022 – 23",
+        "about": "Industry design challenge set by the bike-luggage company Tailfin.",
+        "points": [
+            "Designed a tool-less, length-adjustable AeroPack seat-post connector, selected by MCDA and checked against a 40 MPa bending-stress limit.",
+        ],
+        "links": [("tailfin", "Design challenge")],
+    },
+]
+
+EDUCATION = [
+    {
+        "org": "University of Bath",
+        "role": "MEng (Hons) Aerospace Engineering, with a year in industry",
+        "dates": "2022 – 2027",
+        "points": [
+            "Predicted First Class Honours.",
+            "Final-year project: serrated wingtip devices, investigated with Ansys CFD and wind tunnel testing.",
+            "Key modules: Aerodynamics, Aerospace Structures, Aircraft Performance and Design, Aircraft Propulsion, CFD, Rotorcraft Engineering, Spacecraft Engineering, Stability and Control.",
+        ],
+    },
+    {
+        "org": "International School of Geneva (Ecolint)",
+        "role": "International Baccalaureate, with Distinction and Merit",
+        "dates": "2009 – 2022",
+        "points": ["Higher Level Mathematics 7/7, Higher Level Physics 7/7, Extended Essay grade A."],
+    },
+]
+
+LIFE = [
+    {"group": "Sport", "items": [
+        ("Volleyball", "Played as the starting opposite in university teams and for Liverpool VC, and helped plan training and drills at Liverpool VC."),
+        ("Football", "Starting goalkeeper and team captain of Veyrier's under-18 team."),
+        ("Sailing", "Earned a sailing licence and worked as an instructor."),
+    ]},
+    {"group": "Music and performing arts", "items": [
+        ("Music recording and writing", "Taught myself piano, guitar, bass and drums. I write, record and produce my own music in Logic Pro and have published it on YouTube, and I ran my school's recording studio."),
+        ("Musicals", "Played leading roles in two school productions."),
+        ("Shows and ensembles", "Performed with two singing ensembles, recording and producing covers with them."),
+    ]},
+]
+
+# Projects, in grid order. "cover" is the image number used on cards (None = stat tile).
+PROJECTS = [
+    {
+        "slug": "va-55", "featured": True, "chapters": ["standout", "university"], "cover": 1,
+        "title": "VA-55: hybrid VTOL crop-spraying UAV",
+        "card": "Project manager and technical integrator of an 8-person team. 76% (First).",
+        "meta": "University of Bath · Group Design and Business Project · Feb – May 2026",
+        "role": "Project Manager and Technical Integrator, team of 8",
+        "result": "76% (First). PDR and CDR passed, and every deliverable was submitted ahead of its deadline.",
+        "context": "Our team designed an autonomous crop-spraying UAV and its business case, based on the IMechE UAS Challenge. VA-55 takes off vertically and cruises on a fixed wing: at full payload it flies 15 minutes instead of the 6 to 8 of quadcopter sprayers, and reaches a 4.5 km radius instead of 2 km.",
+        "did": [
+            "Built the parameterised CAD model and placed every subsystem to meet the centre-of-gravity target.",
+            "Moved the aircraft datum from the nose to the wing leading edge, so the battery, avionics and payload could be placed before the nose shape was fixed.",
+            "Tracked compliance with every requirement for each design iteration.",
+            "Designed the quick-disconnect joint between the tail and the VTOL booms, with toleranced drawings and a step-by-step assembly guide; the feedback on the drawings was very positive.",
+            "Introduced design freezes and a day-by-day timetable for the final three weeks.",
+            "Pitched the whole project in three minutes at the exhibition, with one other team member.",
+        ],
+        "skills": ["Systems integration", "Requirements management", "CAD", "Project management", "Tolerancing", "Presenting"],
+    },
+    {
+        "slug": "andel-bundguard", "featured": True, "chapters": ["standout", "professional"], "cover": 1,
+        "title": "BundGuard: self-initiated redesign",
+        "card": "Footprint cut by 67%; prototyped and approved for adoption at Andel.",
+        "meta": "Andel Ltd, Barnsley, UK · Product Design Engineer (placement) · Mar – Aug 2025",
+        "role": "Product Design Engineer, on my own initiative",
+        "result": "Footprint cut by 67%; prototyped and approved by senior management for adoption.",
+        "context": "BundGuard is Andel's flagship leak-detection product line. Each variant used its own welded brackets.",
+        "did": [
+            "On my own initiative, asked Production, Engineering and Service about their problems with the product line, and wrote the requirements.",
+            "Redesigned it: the probes sit on a removable sensor card, and bolted brackets let one main body serve every model.",
+            "Prototyped the design and presented it to senior management.",
+            "Built parametric Fusion 360 models so the R&D team can generate product variants quickly.",
+        ],
+        "skills": ["User research", "Requirements capture", "Parametric CAD (Fusion 360)", "DFM"],
+    },
+    {
+        "slug": "lego-trent-xwb", "featured": True, "chapters": ["standout", "hobbies"], "cover": 1,
+        "title": "LEGO Rolls-Royce Trent XWB replica",
+        "card": "Over 1,000 pieces, with an openable cowling and a working thrust reverser.",
+        "meta": "Personal project · Designed in BrickLink Studio",
+        "role": "Designer and builder",
+        "result": "Over 1,000 pieces, designed in about a week.",
+        "context": "A fully LEGO-built replica of the Trent XWB, recreating the fan, compressor and turbine stages, the internal engine structure and the cowling. Building it taught me a lot about how the engine works inside.",
+        "did": [
+            "Designed every part in BrickLink Studio.",
+            "Built an openable cowling and a working thrust reverser.",
+            "Modelled the shaft with the fan, compressor and turbine stages, and the stator vanes.",
+        ],
+        "skills": ["Design within constraints", "Mechanism design", "BrickLink Studio"],
+    },
+    {
+        "slug": "avia-seven", "chapters": ["professional"], "cover": None, "stat": ("247", "Service Bulletins"),
+        "title": "Continuing airworthiness: Avia Seven and Marathon Airlines",
+        "card": "CAMO engineering internship on Embraer E190 and Legacy 600 fleets.",
+        "meta": "Avia Seven and Marathon Airlines, Athens, Greece · CAMO Engineering Intern · Jun – Sep 2026",
+        "role": "CAMO Engineering Intern",
+        "result": "247 E190 Service Bulletins assessed as applicable, with implementation planned with the CAMO manager.",
+        "context": "Avia Seven is a continuing-airworthiness organisation and airline operating Embraer E-Jets and Legacy 600 business jets.",
+        "stats": [
+            ("247", "E190 Service Bulletins assessed as applicable, with implementation planned with the CAMO manager"),
+            ("16", "discrepancies found across three E190/E195 maintenance programmes against Embraer's MPD"),
+            ("2 fleets", "E190 and Legacy 600 Service Bulletin evaluations, each checked for hazard and applicability"),
+            ("Cat. B", "Trieste airport categorised as a new destination for the airline's fleet"),
+        ],
+        "did": [
+            "Screened every outstanding Service Bulletin myself, assessing hazard, applicability, reliability and fatigue-critical structure with a risk matrix.",
+            "Built an Excel tool to merge the maintenance programmes of an aircraft transferring from another CAMO, automatically flagging duplicate and missing tasks and checking intervals against Embraer's MPD and logged flight hours.",
+            "Categorised Trieste airport (Category B) for the airline's E-Jet and Legacy 600 operations, assessing terrain, approaches and weather.",
+        ],
+        "skills": ["Continuing airworthiness", "Service Bulletin evaluation", "Excel", "Attention to detail"],
+    },
+    {
+        "slug": "andel-products", "chapters": ["standout", "professional"], "cover": 1,
+        "title": "Andel: gully sensor, enclosures and production tools",
+        "card": "A flood sensor approved for commercial use, plus three more product redesigns.",
+        "meta": "Andel Ltd, Barnsley, UK · Product Design Engineer (placement) · Mar – Aug 2025",
+        "role": "Product Design Engineer in a 3-person R&D team",
+        "result": "Gully flood sensor field-tested and approved for commercial use; FlowStop 2 now printed in-house.",
+        "context": "Besides BundGuard, I worked on four more Andel products, from a new flood sensor to production jigs.",
+        "sections": [
+            {"h": "Gully flood sensor: new product", "imgs": [1, 2],
+             "p": "The prototype took so long to install that roads had to be closed. I redesigned the enclosure for quick installation with few tools and no specialist staff, and for easy opening during maintenance. It was field-tested on a gully and approved for commercial use."},
+            {"h": "CellarGuard enclosure and drilling jig", "imgs": [3, 4],
+             "p": "I redesigned the CellarGuard enclosure for easier assembly, keeping it compatible with the old mounting and the next BundGuard probes. I also designed jigs that standardise hand-machined parts, and wrote build documents for Production."},
+            {"h": "SLS-printed enclosures: FlowStop 2 and a circuitry box", "imgs": [5, 6],
+             "p": "Turning the valve horizontal gave FlowStop 2 a larger flat back for adhesive mounting, and the contoured base means the valve only fits the right way round and no longer rattles. It is about 20% more compact, printed in-house instead of outsourced, and was shown at Andel's 2025 Distributors' Conference."},
+            {"h": "Water-quality sensor with Tecnológico de Monterrey, Mexico", "imgs": [7, 8, 9],
+             "p": "An early-stage product with changing requirements. I fitted every sensor into a bollard that moves up and down with the water level, designed the bollard changes around the supplier's limited tooling, and approximated PCB and connector sizes that were not yet designed."},
+            {"h": "Placement poster", "imgs": [10],
+             "p": "One page covering my work on four Andel products."},
+        ],
+        "did": [],
+        "skills": ["User-centred design", "Design for installation", "Design for SLS and FDM", "Drawings for manufacture", "International collaboration"],
+    },
+    {
+        "slug": "chargepoint", "chapters": ["professional"], "cover": 3,
+        "title": "ChargePoint Technology: design placement",
+        "card": "Sensor box halved, a 100 kg test frame, lifting points and new product development.",
+        "meta": "ChargePoint Technology, Liverpool, UK · Design Engineer (placement) · Aug 2024 – Feb 2025",
+        "role": "Design Engineer",
+        "result": "Sensor box size halved; a company-wide product database delivered in one month against a six-month plan.",
+        "context": "ChargePoint makes containment and sterile-transfer valves for pharmaceutical manufacturing. I worked in SolidWorks across six projects.",
+        "sections": [
+            {"h": "Reduced-footprint sensor box", "imgs": [1, 2, 3, 4],
+             "p": "A customer's plant could not fit the standard sensor box. I designed 150 mm, 200 mm and single-sensor versions, then noticed the sensors could sit on one plane, which halved the size of the box. My favourite ChargePoint project."},
+            {"h": "Wash-system test frame for a 100 kg product", "imgs": [5, 6],
+             "p": "My first engineering task: a 316 stainless steel frame holding an experimental 100 kg product on an IBC. I sized off-the-shelf beams with beam theory and checked them with FEA, and learnt welding symbols, warping and dimensioning for technicians."},
+            {"h": "Valve lifting points", "imgs": [7, 8],
+             "p": "Fully equipped valves weigh over 100 kg. I wrote a test report using bolt shear analysis, then designed a handle variant for an eyebolt and checked its pull-out strength. The lifting-eye connector was later used for handles a customer requested."},
+            {"h": "Compensator variant with steel springs", "imgs": [9, 10],
+             "p": "I calculated the spring rate and selected the springs, worked with the ChargeBag (plastics) engineers on a sealed spring cover and its material, learnt O-ring groove design and wrote the test procedures."},
+            {"h": "PuroGrab vibratory attachment", "imgs": [11, 12],
+             "p": "Powder was blocking PuroVaso bottle necks, and users were hitting the bottles with hammers to clear them. I designed a bracket that fits a vibratory piston to the PuroGrab holder, following the company's new-product procedure, and sent the drawings for approval before leaving."},
+            {"h": "Product database automation", "imgs": [],
+             "p": "Product information was spread over many sources. I noticed that the product codes encode each specification, and taught myself Excel functions to decode every code against a master sheet and fill the fields automatically, including for future products. The first version was ready in one month against a six-month plan."},
+        ],
+        "did": [],
+        "skills": ["SolidWorks", "FEA", "Hand calculations", "Welded design", "New product development", "Excel"],
+    },
+    {
+        "slug": "tailfin", "chapters": ["professional"], "cover": 6,
+        "title": "Tailfin @Home Design Challenge",
+        "card": "A tool-less, length-adjustable AeroPack seat-post connector.",
+        "meta": "Tailfin · @Home Design Challenge (University of Bath, Year 1) · 2022 – 23",
+        "role": "Designer",
+        "result": "Two final designs: a 128 g tool-less connector and a lower-cost ratcheted version.",
+        "context": "The brief was an adjustable version of Tailfin's AeroPack seat-post-to-pack connector. A 20-point product design specification covered function, mounting, strength, manufacture and user experience.",
+        "sections": [
+            {"h": "Brief and specification", "imgs": [1, 2, 3], "p": ""},
+            {"h": "Concept selection (MCDA)", "imgs": [4, 5],
+             "p": "Each concept was scored against the datum (Concept 5) on every criterion. Concepts 4 and 6 scored highest, matching the intuitive choice made before the analysis, so both became final designs: Concept 4 is tool-less but costlier, Concept 6 cheaper but less elegant."},
+            {"h": "Final design: Concept 4", "imgs": [6],
+             "p": "A 128 g aluminium connector, tool-less, with ±90° of motion at the seat post and 180° at the pack bracket. Every part except the quick-release clamps can be machined, like the existing Tailfin part, and the bending stress was checked against the 40 MPa limit."},
+            {"h": "Final design: Concept 6", "imgs": [7],
+             "p": "A lower-cost alternative whose length is set through ratcheted holes. The connecting beam sits in the middle with a ratcheted mounting beam on each side, which simplified the design and cut cost. At full extension the bending stress is 11.4 MPa including a safety factor, against the 40 MPa limit."},
+        ],
+        "did": [],
+        "skills": ["Concept selection (MCDA)", "CAD", "Design for manufacture", "Hand calculations"],
+    },
+    {
+        "slug": "wing-design", "chapters": ["university"], "cover": 1,
+        "title": "Wing design: mass-optimised composite wing panel",
+        "card": "MATLAB optimisation of a Saab 340 wing panel. 72% (First).",
+        "meta": "University of Bath · Wing Design (Year 3) · Autumn 2025",
+        "role": "Individual project",
+        "result": "72% (First). The laminate design is 25% lighter per unit area than the aluminium panel.",
+        "context": "I used MATLAB to mass-optimise a Saab 340 wing panel, accounting for design loads, reserve factors, panel geometry and laminate construction.",
+        "did": [
+            "Wrote the optimisation loop: a design passed only when every reserve factor was above 1.",
+            "Wrote a function that picks the optimal stacking sequence for each panel element, following industry laminate rules.",
+            "The code generated the final model automatically.",
+        ],
+        "skills": ["MATLAB", "Composite design", "Structural optimisation"],
+    },
+    {
+        "slug": "team-bath-drones", "chapters": ["university"], "cover": 1,
+        "title": "Team Bath Drones: fixed-wing water-drop drone",
+        "card": "Led a 5-person team designing a drone that drops 4 kg of water on a target.",
+        "meta": "University of Bath · Team Bath Drones Design and Make (Year 3) · Autumn 2025",
+        "role": "Team leader, team of 5",
+        "result": "Designed the aircraft and ran a preliminary aerodynamic analysis, including lift and drag estimates.",
+        "context": "A design-and-make event for students outside the main Team Bath Drones team: design a drone that carries 4 kg of water and drops it on a target.",
+        "did": [
+            "Formed and led my own 5-person team.",
+            "Designed the aircraft and estimated its lift and drag.",
+        ],
+        "skills": ["Leadership", "Conceptual aircraft design", "Aerodynamics"],
+    },
+    {
+        "slug": "machine-design", "chapters": ["university"], "cover": 1,
+        "title": "Machine design: autonomous battery-pack assembly line",
+        "card": "Led a 4-person team. 71% (First).",
+        "meta": "University of Bath · Machine Design (Year 2) · 2023 – 24",
+        "role": "Team leader, team of 4",
+        "result": "71% (First).",
+        "context": "Our team designed an autonomous machine that assembles battery packs.",
+        "did": [
+            "Chose the concept with a morphological chart, then selected and integrated off-the-shelf components.",
+            "Ran FEA to confirm that the critical parts could carry their loads.",
+            "Produced a full CAD model and a set of engineering drawings.",
+        ],
+        "skills": ["Leadership", "Concept selection", "FEA", "CAD"],
+    },
+    {
+        "slug": "matlab", "chapters": ["university"], "cover": 1,
+        "title": "MATLAB simulations: re-entry heat tiles and a weather balloon",
+        "card": "Two simulations, each running from its own GUI.",
+        "meta": "University of Bath · MATLAB (Year 2) · 2023 – 24",
+        "role": "Individual coursework",
+        "result": "Re-entry simulation 71% (First); weather balloon 68%.",
+        "context": "I simulated Space Shuttle heat tiles during re-entry and a weather balloon's path in the wind.",
+        "did": ["Built a GUI for each simulation."],
+        "skills": ["MATLAB", "Numerical methods", "GUI design"],
+    },
+    {
+        "slug": "shaft-design", "chapters": ["university"], "cover": 1,
+        "title": "Shaft design: snowmobile drive shaft",
+        "card": "Optimised for low weight. 74% (First).",
+        "meta": "University of Bath · Shaft Design (Year 2) · 2023 – 24",
+        "role": "Individual coursework",
+        "result": "74% (First).",
+        "context": "Design a snowmobile drive shaft optimised for low weight.",
+        "did": ["Sized the shaft with calculations, then built its CAD model."],
+        "skills": ["Machine element design", "Hand calculations", "CAD"],
+    },
+    {
+        "slug": "product-design", "chapters": ["university"], "cover": 1,
+        "title": "Product design: medicine-bottle opener",
+        "card": "Compliant mechanisms for elderly users.",
+        "meta": "University of Bath · Product Design (Year 2) · 2023 – 24",
+        "role": "Individual coursework",
+        "result": "66%.",
+        "context": "A device that helps elderly users open medicine bottles.",
+        "did": ["Used compliant mechanisms to provide the main function."],
+        "skills": ["User-centred design", "Compliant mechanisms", "CAD"],
+    },
+    {
+        "slug": "dragster", "chapters": ["university"], "cover": 1,
+        "title": "Dragster competition: spring-powered balsa dragster",
+        "card": "1st place out of 68 groups.",
+        "meta": "University of Bath · Dragster Competition (Year 2) · 2023 – 24",
+        "role": "Team member",
+        "result": "1st place out of 68 groups.",
+        "context": "Build and test a spring-powered balsa-wood dragster for the annual competition.",
+        "did": ["Built and tested the dragster."],
+        "skills": ["Prototyping", "Testing"],
+    },
+    {
+        "slug": "design-and-make", "chapters": ["university"], "cover": 2,
+        "title": "Design and Make: autonomous cone-dispensing machine",
+        "card": "Led a 7-person team. 74% (First).",
+        "meta": "University of Bath · Design and Make (Year 1) · 2022 – 23",
+        "role": "Team leader and spokesperson, team of 7",
+        "result": "74% (First).",
+        "context": "Open brief with a five-week deadline: a fully mechanical, autonomous machine that dispenses cones in a set pattern.",
+        "did": [
+            "Led the team and acted as its spokesperson.",
+            "Designed the main mechanisms in Inventor.",
+            "The team built and tested the machine the following year.",
+        ],
+        "skills": ["Leadership", "Mechanism design", "Autodesk Inventor"],
+    },
+    {
+        "slug": "gearbox-actuator", "chapters": ["university"], "cover": 1,
+        "title": "Epicyclic gearbox and pneumatic actuator drawings",
+        "card": "A working gearbox model and a hand-drawn quarter section.",
+        "meta": "University of Bath · Year 1 · 2022 – 23",
+        "role": "Individual coursework",
+        "result": "A working CAD model of an epicyclic gearbox, with an animated exploded view.",
+        "context": "First-year CAD and drawing coursework.",
+        "did": [
+            "Modelled a working epicyclic gearbox and drew a half section with balloon references.",
+            "Drew an isometric quarter section of a pneumatic actuator by hand, from its 2D engineering drawings.",
+        ],
+        "skills": ["CAD", "Technical drawings", "Hand drawing"],
+    },
+    {
+        "slug": "extended-essay", "chapters": ["school"], "cover": 1,
+        "title": "Extended Essay: does tone wood change an electric guitar's sound?",
+        "card": "A test rig whose results disproved the tone-wood theory. Grade A.",
+        "meta": "International School of Geneva · IB Extended Essay (Physics)",
+        "role": "Individual research",
+        "result": "Grade A. The test rig's results disproved the tone-wood theory.",
+        "context": "A 4,000-word physics study.",
+        "did": ["Designed and built the test rig.", "Recorded it in Logic Pro and compared the frequency spectra."],
+        "skills": ["Experimental design", "Signal analysis", "Logic Pro"],
+    },
+    {
+        "slug": "physics-ia", "chapters": ["school"], "cover": 1,
+        "title": "Physics IA: terminal velocity of paper parachutes",
+        "card": "My own apparatus and method.",
+        "meta": "International School of Geneva · IB Physics Internal Assessment",
+        "role": "Individual research",
+        "result": "Measured the terminal velocity of rigid paper parachutes.",
+        "context": "IB Physics internal assessment.",
+        "did": ["Designed my own apparatus and method."],
+        "skills": ["Experimental design", "Data analysis"],
+    },
+    {
+        "slug": "lego-star-trek", "chapters": ["hobbies"], "cover": 1,
+        "title": "LEGO Star Trek starships",
+        "card": "Designed from reference images, then made stronger.",
+        "meta": "Personal project · Designed in BrickLink Studio",
+        "role": "Designer and builder",
+        "result": "Designs scaled from reference images to match each ship's proportions.",
+        "context": "After building my Odyssey Class model I found a flaw that would break it in half.",
+        "did": [
+            "Redesigned that section in CAD, making it stronger and more accurate.",
+            "Every model since has been sturdier.",
+        ],
+        "skills": ["Design within constraints", "Structural problem solving", "BrickLink Studio"],
+    },
+    {
+        "slug": "guitar", "chapters": ["hobbies"], "cover": 1,
+        "title": "Guitar modification",
+        "card": "New electronics, hardware, neck and paint.",
+        "meta": "Personal project",
+        "role": "Designer and builder",
+        "result": "Rewired for 10 sound combinations; still my main instrument.",
+        "context": "I rebuilt an electric guitar: electronics, hardware, neck and paint.",
+        "did": [
+            "Rewired the electronics for 10 sound combinations.",
+            "Replaced the hardware and the neck.",
+            "Drew 20 paint concepts and built a sealed paint booth to spray the body.",
+        ],
+        "skills": ["Electronics", "Workshop skills", "Concept design"],
+    },
+]
