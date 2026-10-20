@@ -235,6 +235,16 @@ def project(p, prev, nxt):
         gallery = '<h2 class="gallery-title">Gallery</h2><div class="gallery">' + "".join(
             figure(slug, n) for n in range(2, n_imgs + 1)) + "</div>"
     skills = "".join(f'<span class="chip chip-static">{e(s)}</span>' for s in p["skills"])
+    docs = ""
+    if p.get("docs"):
+        rows = ""
+        for folder, fname, label in p["docs"]:
+            href = f"/docs/{folder}/{fname}"
+            size = os.path.getsize(os.path.join(ROOT, href.lstrip("/"))) / 1e6
+            size = f"{size:.1f} MB" if size >= 1 else f"{size * 1000:.0f} KB"
+            rows += (f'<li><a class="doc-view" href="{href}" target="_blank" rel="noopener">{e(label)}</a>'
+                     f'<span class="doc-meta">PDF, {size} · <a href="{href}" download>Download</a></span></li>')
+        docs = f'<div class="side-docs"><span class="dt">Documents</span><ul class="doc-list">{rows}</ul></div>'
     og = f"/assets/img/{slug}/1.jpg" if n_imgs else "/assets/img/va-55/1.jpg"
     body = f"""
 <article class="project">
@@ -260,6 +270,7 @@ def project(p, prev, nxt):
         <dt>Result</dt><dd>{e(p['result'])}</dd>
       </dl>
       <div class="side-skills"><span class="dt">Skills</span><div>{skills}</div></div>
+      {docs}
     </aside>
   </div>
   <div class="wrap">{sections}{gallery}</div>
@@ -279,9 +290,9 @@ def experience():
         links = "".join(f'<a class="chip" href="/projects/{s}.html">{e(t)} →</a>' for s, t in x["links"])
         poster = ""
         if x.get("poster"):
-            m = img("andel-products", 10)
-            poster = (f'<a class="poster-thumb lb" data-group="poster" href="/assets/img/andel-products/{m["src"]}" '
-                      f'data-caption="{e(m["cap"])}"><img src="/assets/img/andel-products/{m["sm"]}" alt="Andel placement poster" '
+            m = img("andel", 12)
+            poster = (f'<a class="poster-thumb lb" data-group="poster" href="/assets/img/andel/{m["src"]}" '
+                      f'data-caption="{e(m["cap"])}"><img src="/assets/img/andel/{m["sm"]}" alt="Andel placement poster" '
                       f'loading="lazy" width="{m["sw"]}" height="{m["sh"]}"><span>View my placement poster</span></a>')
         items += f"""<li class="tl-item">
   <div class="tl-dates">{x['dates']}</div>
@@ -410,4 +421,10 @@ if __name__ == "__main__":
     write("about.html", about())
     write("life.html", life())
     write("404.html", notfound())
+    # Old project URLs (pages merged or renamed on 20 Oct 2026).
+    for old, new in [("andel-bundguard", "andel"), ("andel-products", "andel"), ("gearbox-actuator", "year-1")]:
+        write(f"projects/{old}.html", f'<!doctype html><meta charset="utf-8"><title>Moved</title>'
+              f'<meta name="robots" content="noindex"><link rel="canonical" href="/projects/{new}.html">'
+              f'<meta http-equiv="refresh" content="0; url=/projects/{new}.html">'
+              f'<p>This page has moved to <a href="/projects/{new}.html">/projects/{new}.html</a>.</p>')
     print("built", len(ps), "projects")

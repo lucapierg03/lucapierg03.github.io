@@ -181,7 +181,7 @@ a.chip:hover { background: var(--pale); }
 }
 .project-side { position: sticky; top: 88px; background: var(--paler); border: 1px solid var(--pale); border-radius: var(--radius); padding: 22px; }
 .project-side dl { margin: 0; }
-.project-side dt, .side-skills .dt { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--blue); margin-bottom: 4px; display: block; }
+.project-side dt, .side-skills .dt, .side-docs .dt { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--blue); margin-bottom: 4px; display: block; }
 .project-side dd { margin: 0 0 16px; color: var(--ink); }
 .side-skills .chip { background: #fff; }
 .part { padding-top: 28px; border-top: 1px solid var(--line); margin-top: 28px; }
@@ -308,3 +308,14 @@ a.chip:hover { background: var(--pale); }
   .lightbox { padding: 56px 8px; }
   .lb-prev, .lb-next { top: auto; bottom: 12px; transform: none; }
 }
+
+/* Documents (project sidebar) */
+.side-docs { margin-top: 18px; }
+.side-docs .dt { display: block; margin-bottom: 8px; }
+.doc-list { list-style: none; margin: 0; padding: 0; }
+.doc-list li { padding: 8px 0; border-top: 1px solid var(--pale); }
+.doc-list li:first-child { border-top: 0; padding-top: 0; }
+.doc-view { display: block; font-weight: 600; color: var(--blue); text-decoration: none; line-height: 1.35; }
+.doc-view:hover { text-decoration: underline; }
+.doc-meta { display: block; font-size: .82rem; color: var(--muted); margin-top: 2px; }
+.doc-meta a { color: var(--muted); }

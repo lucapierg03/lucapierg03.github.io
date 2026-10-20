@@ -5,9 +5,13 @@ from PIL import Image, ImageChops
 W='/tmp/claude-0/web'
 OUT='/home/claude/lucapierg03.github.io/assets/img'
 crops=[l.strip() for l in open(W+'/list.txt')]
+old=[l.strip() for l in open(W+'/old/list.txt')]
+Image.MAX_IMAGE_PIXELS=None
 def load(src):
     if isinstance(src,int): return Image.open(W+'/'+crops[src])
     if src=='poster': return Image.open(W+'/'+crops[115]).rotate(-90, expand=True)
+    if src.startswith('old:'): return Image.open(W+'/'+old[int(src[4:])])
+    if src.startswith('/'): return Image.open(src)
     return Image.open(W+'/drive/'+src)
 def flat(im):
     if im.mode in ('RGBA','LA','P'):
@@ -27,7 +31,7 @@ for slug,items in IMGS.items():
     lst=[]
     for n,(src,cap) in enumerate(items,1):
         im=trim(flat(load(src)))
-        big=im.copy(); big.thumbnail((1800,1800),Image.LANCZOS)
+        big=im.copy(); m=2600 if isinstance(src,str) and '/web/docs/' in src else 1800; big.thumbnail((m,m),Image.LANCZOS)
         sm=im.copy(); sm.thumbnail((760,760),Image.LANCZOS)
         big.save(f'{OUT}/{slug}/{n}.jpg',quality=84,optimize=True,progressive=True)
         sm.save(f'{OUT}/{slug}/{n}-sm.jpg',quality=80,optimize=True,progressive=True)
@@ -38,5 +42,5 @@ os.makedirs(f'{OUT}/me',exist_ok=True)
 h=Image.open(W+'/drive/headshot.jpg').convert('RGB')
 h.thumbnail((700,900),Image.LANCZOS); h.save(f'{OUT}/me/luca.jpg',quality=85,optimize=True,progressive=True)
 manifest['_me']={'w':h.width,'h':h.height}
-json.dump(manifest,open(W+'/tools/manifest.json','w'),indent=1)
+json.dump(manifest,open(os.path.dirname(os.path.abspath(__file__))+'/manifest.json','w'),indent=1)
 print('done')
