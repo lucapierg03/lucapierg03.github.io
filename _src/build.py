@@ -223,6 +223,8 @@ def project(p, prev, nxt):
     did = ""
     if p.get("did"):
         did = "<h2>What I did</h2><ul class=\"ticks\">" + "".join(f"<li>{e(d)}</li>" for d in p["did"]) + "</ul>"
+    if p.get("learned"):
+        did += "<h2>What I learned</h2>" + "".join(f"<p>{e(x)}</p>" for x in p["learned"])
     sections = ""
     if p.get("sections"):
         for s in p["sections"]:
