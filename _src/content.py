@@ -208,7 +208,7 @@ PROJECTS = [
         "slug": "final-year-project", "chapters": ["standout", "university"], "cover": None, "stat": ("2027", "In progress"),
         "title": "Final-year project: serrated wingtip devices",
         "card": "My self-initiated final-year project: can serrated edges on an airliner winglet weaken the tip vortex and cut drag?",
-        "meta": "University of Bath · Final Year Project · 2026 – 2027",
+        "meta": "University of Bath · Final Year Project · Supervisor: Dr Zhijing Wang · 2026 – 2027",
         "role": "Individual project, self-initiated",
         "result": "In progress. Literature review under way; CAD, CFD and wind-tunnel testing planned. No results yet.",
         "context": "Air leaking round a wingtip from the high-pressure underside to the low-pressure top forms tip vortices and lift-induced drag, a large share of an airliner's drag. Winglets reduce this, saving fuel and CO2. My project asks whether sine-wave serrations on the edges of an A350-style winglet can weaken the tip vortex, which matters for wake hazard and aircraft spacing, and reduce drag without losing lift.",
@@ -240,7 +240,7 @@ PROJECTS = [
         "skills": ["Design within constraints", "Mechanism design", "BrickLink Studio"],
     },
     {
-        "slug": "avia-seven", "chapters": ["professional"], "cover": None, "stat": ("CAMO", "Embraer E190 and Legacy 600"),
+        "slug": "avia-seven", "chapters": ["professional"], "cover": 1, "hero": False,
         "title": "Continuing airworthiness: Avia Seven and Marathon Airlines",
         "card": "CAMO engineering internship on Embraer E190 and Legacy 600 fleets.",
         "meta": "Avia Seven and Marathon Airlines, Athens, Greece · CAMO Engineering Intern · Jun – Sep 2026",

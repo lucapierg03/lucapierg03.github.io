@@ -214,7 +214,7 @@ def project(p, prev, nxt):
     slug = p["slug"]
     n_imgs = len(MAN.get(slug, []))
     hero = ""
-    if n_imgs and not p.get("sections"):
+    if n_imgs and not p.get("sections") and p.get("hero", True):
         hero = f'<div class="wrap">{figure(slug, 1, "hero-shot")}</div>'
     stats = ""
     if p.get("stats"):

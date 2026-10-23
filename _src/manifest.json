@@ -409,7 +409,7 @@
    "h": 591,
    "sw": 760,
    "sh": 249,
-   "cap": "Final design, Concept 4: a 128 g tool-less aluminium connector with \u00b190\u00b0 of motion at the seat post and 180\u00b0 at the pack bracket."
+   "cap": "Final design, Concept 4: a 128 g tool-less aluminium connector with ±90° of motion at the seat post and 180° at the pack bracket."
   },
   {
    "src": "7.jpg",
@@ -1598,7 +1598,7 @@
    "h": 660,
    "sw": 760,
    "sh": 621,
-   "cap": "Too big for the SLS printer, so the enclosure was designed for FDM: 45\u00b0 chamfers under overhangs, break-away support walls and a chosen print orientation."
+   "cap": "Too big for the SLS printer, so the enclosure was designed for FDM: 45° chamfers under overhangs, break-away support walls and a chosen print orientation."
   },
   {
    "src": "5.jpg",
@@ -1750,5 +1750,16 @@
  "_me": {
   "w": 667,
   "h": 900
- }
+ },
+ "avia-seven": [
+  {
+   "src": "1.jpg",
+   "sm": "1-sm.jpg",
+   "w": 1600,
+   "h": 1050,
+   "sw": 760,
+   "sh": 499,
+   "cap": "Avia Seven aviation services"
+  }
+ ]
 }
