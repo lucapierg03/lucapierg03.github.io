@@ -373,6 +373,7 @@ def about():
       <li><span>Email</span><a href="mailto:{P['email']}">{P['email']}</a></li>
       <li><span>Phone</span><a href="tel:{P['phone_href']}">{P['phone']}</a></li>
       <li><span>LinkedIn</span><a href="{P['linkedin']}" rel="me noopener" target="_blank">{P['linkedin_label']}</a></li>
+      <li><span>Work eligibility</span>{e(P['eligibility'])}</li>
     </ul>
   </div>
 </section>"""

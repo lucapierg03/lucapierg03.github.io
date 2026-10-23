@@ -11,6 +11,7 @@ PERSON = {
     "phone_href": "+41787293125",
     "linkedin": "https://www.linkedin.com/in/lucapiergentili",
     "linkedin_label": "linkedin.com/in/lucapiergentili",
+    "eligibility": "Italian citizen · Swiss C permit · Eligible for the UK Graduate visa",
 }
 
 CHAPTERS = [
@@ -21,10 +22,12 @@ CHAPTERS = [
     ("hobbies", "Hobbies"),
 ]
 
-HOME_LEAD = ("Aerospace engineering student at the University of Bath, graduating in July 2027 "
-             "with a predicted First. I have industry experience at three companies and have completed "
-             "engineering projects ranging from simulation and optimisation to UAV conceptual design "
-             "and product design for commercial use.")
+HOME_LEAD = ("Final-year MEng Aerospace Engineering student at the University of Bath, graduating in July 2027 "
+             "with a predicted First. I focus on aircraft design, engineering project management and product design, "
+             "with industry experience at three companies in product design and continuing airworthiness. I enjoy "
+             "understanding how subsystems interact and turning early concepts into designs that can be built. "
+             "I'm Italian and grew up in Geneva, and outside engineering I design LEGO models in CAD, play volleyball, "
+             "and write and record my own music.")
 
 HOME_STATS = [
     ("3 Companies", "Over a year of industry experience in aviation, pharmaceutical and environmental engineering"),
@@ -35,7 +38,8 @@ HOME_STATS = [
 
 ABOUT = [
     "I'm Luca, a final-year MEng Aerospace Engineering student at the University of Bath, graduating in July 2027 "
-    "with a predicted First. I'm Italian and have lived in Geneva since 2009.",
+    "with a predicted First. I'm Italian and have lived in Geneva since 2009, where I hold a Swiss C permit, "
+    "and I'm eligible for the UK Graduate visa.",
     "My year in industry was split between two placements. At ChargePoint Technology in Liverpool I designed "
     "equipment around pharmaceutical containment valves in SolidWorks and automated the company's product database. "
     "At Andel in Barnsley I redesigned enclosures for leak-detection and flood-protection products, including a gully "
@@ -43,7 +47,7 @@ ABOUT = [
     "I worked in continuing airworthiness at Avia Seven and Marathon Airlines in Athens, assessing Service Bulletins "
     "and maintenance programmes for Embraer jets.",
     "At university I was project manager and technical integrator of VA-55, a hybrid VTOL crop-spraying drone. "
-    "This year my final-year project investigates serrated wingtip devices, using Ansys CFD and wind tunnel testing.",
+    "This year my self-initiated final-year project investigates serrated wingtip devices, with wind-tunnel testing and CFD planned.",
     "Outside engineering I design LEGO models, play volleyball, and record and produce my own music.",
 ]
 
@@ -126,7 +130,7 @@ EDUCATION = [
         "dates": "2022 – 2027",
         "points": [
             "Predicted First Class Honours.",
-            "Final-year project: serrated wingtip devices, investigated with Ansys CFD and wind tunnel testing.",
+            "Final-year project: serrated wingtip devices, with wind-tunnel testing and CFD planned.",
             "Key modules: Aerodynamics, Aerospace Structures, Aircraft Performance and Design, Aircraft Propulsion, CFD, Rotorcraft Engineering, Spacecraft Engineering, Stability and Control.",
         ],
     },
@@ -160,7 +164,7 @@ PROJECTS = [
         "meta": "University of Bath · Group Design and Business Project · Feb – May 2026",
         "role": "Project Manager and Technical Integrator, team of 8",
         "result": "76% (First). PDR and CDR passed, and every deliverable was submitted ahead of its deadline.",
-        "context": "Our team designed an autonomous crop-spraying UAV and its business case, based on the IMechE UAS Challenge. VA-55 takes off vertically and cruises on a fixed wing: at full payload it flies 15 minutes instead of the 6 to 8 of quadcopter sprayers, and reaches a 4.5 km radius instead of 2 km.",
+        "context": "Our team designed an autonomous crop-spraying UAV and its business case, based on the IMechE UAS Challenge. VA-55 takes off vertically and cruises on a fixed wing: at full payload it is designed to fly 15 minutes instead of the 6 to 8 of quadcopter sprayers, and reaches a 4.5 km radius instead of 2 km.",
         "did": [
             "Built the parameterised CAD model and placed every subsystem to meet the centre-of-gravity target.",
             "Moved the aircraft datum from the nose to the wing leading edge, so the battery, avionics and payload could be placed before the nose shape was fixed.",
@@ -170,15 +174,15 @@ PROJECTS = [
             "Pitched the whole project in three minutes at the exhibition, with one other team member.",
         ],
         "skills": ["Systems integration", "Requirements management", "CAD", "Project management", "Tolerancing", "Presenting"],
-        "docs": [('va-55', 'va-55-technical-report.pdf', 'My technical report (part 3 of 8)'), ('va-55', 'market-study.pdf', 'Market study: rice-crop spraying in India')],
+        "docs": [('va-55', 'va-55-technical-report.pdf', 'VA-55 Technical Report'), ('va-55', 'market-study.pdf', 'VA-55 Market Study')],
     },
     {
         "slug": "andel", "featured": True, "chapters": ["standout", "professional"], "cover": 1,
         "title": "Andel: BundGuard redesign and four more products",
-        "card": "BundGuard footprint cut by 67%, and a flood sensor approved for commercial use.",
+        "card": "A self-initiated BundGuard redesign approved for adoption, and a flood sensor approved for commercial use.",
         "meta": "Andel Ltd, Barnsley, UK · Product Design Engineer (placement) · Mar – Aug 2025",
         "role": "Product Design Engineer in a 3-person R&D team",
-        "result": "BundGuard footprint cut by 67% and approved by senior management for adoption; gully flood sensor field-tested and approved for commercial use; FlowStop 2 now printed in-house.",
+        "result": "BundGuard redesign approved by senior management for adoption; gully flood sensor field-tested and approved for commercial use; FlowStop 2 now printed in-house.",
         "context": "Andel makes leak-detection and flood-protection products. I worked on five of them, from a self-initiated redesign of the flagship BundGuard to a new flood sensor and production jigs.",
         "sections": [
             {"h": "BundGuard: self-initiated redesign", "imgs": [1, 2],
@@ -196,10 +200,30 @@ PROJECTS = [
         ],
         "did": [],
         "skills": ["User research", "Requirements capture", "Parametric CAD (Fusion 360)", "DFM", "Design for installation", "Design for SLS and FDM", "Drawings for manufacture", "International collaboration"],
-        "docs": [("placement", "placement-report.pdf", "Placement report (ChargePoint and Andel)")],
+        "docs": [("placement", "placement-report.pdf", "Placement Technical Report")],
     },
     {
-        "slug": "lego-trent-xwb", "chapters": ["standout", "hobbies"], "cover": 1,
+        "slug": "final-year-project", "chapters": ["standout", "university"], "cover": None, "stat": ("2027", "In progress"),
+        "title": "Final-year project: serrated wingtip devices",
+        "card": "My self-initiated final-year project: can serrated edges on an airliner winglet weaken the tip vortex and cut drag?",
+        "meta": "University of Bath · Final Year Project · 2026 – 2027",
+        "role": "Individual project, self-initiated",
+        "result": "In progress. Literature review under way; CAD, CFD and wind-tunnel testing planned. No results yet.",
+        "context": "Air leaking round a wingtip from the high-pressure underside to the low-pressure top forms tip vortices and lift-induced drag, a large share of an airliner's drag. Winglets reduce this, saving fuel and CO2. My project asks whether sine-wave serrations on the edges of an A350-style winglet can weaken the tip vortex, which matters for wake hazard and aircraft spacing, and reduce drag without losing lift.",
+        "did": [
+            "Proposed the project myself.",
+            "Chose the variables: serrations on the top edge, the trailing edge and both, varying the sine wave's amplitude and frequency over a range of angles of attack.",
+            "Chose the A350 wingtip device as the baseline, and a test approach with interchangeable tips on one wind-tunnel model, supported by Ansys CFD.",
+            "Reviewing the literature on wingtip devices and serrated edges.",
+        ],
+        "sections": [
+            {"h": "Decisions so far", "imgs": [],
+             "p": "I defined the serrations as sine waves set by amplitude and frequency: two continuous variables that make trends easy to see, and the closest published study found wavelength mattered more than waveform shape. I measure vortex strength and drag as separate outcomes, because a weaker vortex does not automatically mean less drag. And every tip fits the same model, so the wing and mounting stay identical and small drag differences come from the tip, not the set-up."},
+        ],
+        "skills": ["Experimental design", "Aerodynamics", "Literature review", "Research proposal"],
+    },
+    {
+        "slug": "lego-trent-xwb", "chapters": ["hobbies"], "cover": 1,
         "title": "LEGO Rolls-Royce Trent XWB replica",
         "card": "Over 1,000 pieces, with an openable cowling and a working thrust reverser.",
         "meta": "Personal project · Designed in BrickLink Studio",
@@ -214,21 +238,16 @@ PROJECTS = [
         "skills": ["Design within constraints", "Mechanism design", "BrickLink Studio"],
     },
     {
-        "slug": "avia-seven", "chapters": ["professional"], "cover": None, "stat": ("247", "Service Bulletins"),
+        "slug": "avia-seven", "chapters": ["professional"], "cover": None, "stat": ("CAMO", "Embraer E190 and Legacy 600"),
         "title": "Continuing airworthiness: Avia Seven and Marathon Airlines",
         "card": "CAMO engineering internship on Embraer E190 and Legacy 600 fleets.",
         "meta": "Avia Seven and Marathon Airlines, Athens, Greece · CAMO Engineering Intern · Jun – Sep 2026",
         "role": "CAMO Engineering Intern",
-        "result": "247 E190 Service Bulletins assessed as applicable, with implementation planned with the CAMO manager.",
+        "result": "Service Bulletin implementation planned with the CAMO manager, and maintenance-programme corrections issued from my findings.",
         "context": "Avia Seven is a continuing-airworthiness organisation and airline operating Embraer E-Jets and Legacy 600 business jets.",
-        "stats": [
-            ("247", "E190 Service Bulletins assessed as applicable, with implementation planned with the CAMO manager"),
-            ("16", "discrepancies found across three E190/E195 maintenance programmes against Embraer's MPD"),
-            ("2 fleets", "E190 and Legacy 600 Service Bulletin evaluations, each checked for hazard and applicability"),
-            ("Cat. B", "Trieste airport categorised as a new destination for the airline's fleet"),
-        ],
         "did": [
-            "Screened every outstanding Service Bulletin myself, assessing hazard, applicability, reliability and fatigue-critical structure with a risk matrix.",
+            "Screened every outstanding E190 and Legacy 600 Service Bulletin myself, assessing hazard, applicability, reliability and fatigue-critical structure with a risk matrix; 247 E190 SBs were applicable, and I planned their implementation with the CAMO manager.",
+            "Cross-checked E190 and E195 maintenance programmes against Embraer's MPD and logged 16 discrepancies, which the CAMO manager corrected.",
             "Built an Excel tool to merge the maintenance programmes of an aircraft transferring from another CAMO, automatically flagging duplicate and missing tasks and checking intervals against Embraer's MPD and logged flight hours.",
             "Categorised Trieste airport (Category B) for the airline's E-Jet and Legacy 600 operations, assessing terrain, approaches and weather.",
         ],
@@ -258,7 +277,7 @@ PROJECTS = [
         ],
         "did": [],
         "skills": ["SolidWorks", "FEA", "Hand calculations", "Welded design", "New product development", "Excel"],
-        "docs": [('placement', 'placement-report.pdf', 'Placement report (ChargePoint and Andel)')],
+        "docs": [('placement', 'placement-report.pdf', 'Placement Technical Report')],
     },
     {
         "slug": "tailfin", "chapters": ["professional"], "cover": 6,
@@ -286,7 +305,7 @@ PROJECTS = [
         "card": "MATLAB optimisation of a Saab 340 wing panel. 72% (First).",
         "meta": "University of Bath · Wing Design (Year 3) · Autumn 2025",
         "role": "Individual project",
-        "result": "72% (First). The laminate design is 25% lighter per unit area than the aluminium panel.",
+        "result": "72% (First). The laminate design is 25% lighter than the original aluminium panel under the same design load (6.82 kg/m², safety factor 1.5).",
         "context": "I used MATLAB to mass-optimise a Saab 340 wing panel, accounting for design loads, reserve factors, panel geometry and laminate construction.",
         "did": [
             "Wrote the optimisation loop: a design passed only when every reserve factor was above 1.",
@@ -294,7 +313,7 @@ PROJECTS = [
             "The code generated the final model automatically.",
         ],
         "skills": ["MATLAB", "Composite design", "Structural optimisation"],
-        "docs": [('wing-design', 'wing-panel-design-report.pdf', 'Wing panel design report')],
+        "docs": [('wing-design', 'wing-panel-design-report.pdf', 'Wing Design Technical Report')],
     },
     {
         "slug": "team-bath-drones", "chapters": ["university"], "cover": 1,
@@ -324,9 +343,9 @@ PROJECTS = [
             "Produced a full CAD model and a set of engineering drawings.",
         ],
         "skills": ["Leadership", "Concept selection", "FEA", "CAD"],
-        "docs": [("machine-design", "machine-design-documentation.pdf", "Project documentation report (group)"),
-                 ("machine-design", "full-machine-assembly-drawing.pdf", "Full machine assembly drawing"),
-                 ("machine-design", "top-carrier-input-drawing.pdf", "Top carrier input drawing")],
+        "docs": [("machine-design", "machine-design-documentation.pdf", "Machine Design Technical Report"),
+                 ("machine-design", "full-machine-assembly-drawing.pdf", "Machine Design Assembly Drawing"),
+                 ("machine-design", "top-carrier-input-drawing.pdf", "Machine Design Top Carrier Drawing")],
     },
     {
         "slug": "matlab", "chapters": ["university"], "cover": 1,
@@ -335,7 +354,7 @@ PROJECTS = [
         "meta": "University of Bath · MATLAB (Year 2) · 2023 – 24",
         "role": "Group coursework",
         "result": "Re-entry simulation 71% (First); weather balloon 68%.",
-        "docs": [("matlab", "weather-balloon-report.pdf", "Weather balloon report (group of 3)")],
+        "docs": [("matlab", "weather-balloon-report.pdf", "Weather Balloon Technical Report")],
         "context": "In groups, we simulated Space Shuttle heat tiles during re-entry and a weather balloon's path in the wind.",
         "did": ["Built a GUI for each simulation."],
         "skills": ["MATLAB", "Numerical methods", "GUI design"],
@@ -354,12 +373,12 @@ PROJECTS = [
             "Built the CAD model in Inventor and produced the part and assembly drawings.",
         ],
         "skills": ["Machine element design", "Hand calculations", "Autodesk Inventor", "Technical drawing"],
-        "docs": [("shaft-design", "shaft-design-report.pdf", "Shaft design report (pair)"),
-                 ("shaft-design", "shaft-assembly-drawing.pdf", "Assembly drawing"),
-                 ("shaft-design", "shaft-drawing.pdf", "Shaft part drawing"),
-                 ("shaft-design", "shaft-assembly-isometric.pdf", "Isometric assembly drawing"),
-                 ("shaft-design", "sd204-assembly-drawing.pdf", "Iteration 2 assembly drawing"),
-                 ("shaft-design", "sd204-shaft-drawing-fits.pdf", "Iteration 2 shaft drawing (fit tolerances)"),
+        "docs": [("shaft-design", "shaft-design-report.pdf", "Shaft Design Technical Report"),
+                 ("shaft-design", "shaft-assembly-drawing.pdf", "Shaft Design Assembly Drawing"),
+                 ("shaft-design", "shaft-drawing.pdf", "Shaft Design Part Drawing"),
+                 ("shaft-design", "shaft-assembly-isometric.pdf", "Shaft Design Isometric Assembly Drawing"),
+                 ("shaft-design", "sd204-assembly-drawing.pdf", "Shaft Design Iteration 2 Assembly Drawing"),
+                 ("shaft-design", "sd204-shaft-drawing-fits.pdf", "Shaft Design Iteration 2 Shaft Drawing"),
                  ("shaft-design", "sd204-shaft-drawing-limits.pdf", "Iteration 2 shaft drawing (limit dimensions)")],
     },
     {
@@ -372,7 +391,7 @@ PROJECTS = [
         "context": "A device that helps elderly users open medicine bottles.",
         "did": ["Used compliant mechanisms to provide the main function."],
         "skills": ["User-centred design", "Compliant mechanisms", "CAD"],
-        "docs": [('product-design', 'poster-1.pdf', 'Poster 1: problem and force analysis'), ('product-design', 'poster-2.pdf', 'Poster 2: ideation and concepts'), ('product-design', 'poster-3.pdf', 'Poster 3: final design'), ('product-design', 'poster-4.pdf', 'Poster 4: production and environmental impact')],
+        "docs": [('product-design', 'poster-1.pdf', 'Product Design Poster 1'), ('product-design', 'poster-2.pdf', 'Product Design Poster 2'), ('product-design', 'poster-3.pdf', 'Product Design Poster 3'), ('product-design', 'poster-4.pdf', 'Product Design Poster 4')],
     },
     {
         "slug": "dragster", "chapters": ["university"], "cover": 1,
@@ -399,7 +418,7 @@ PROJECTS = [
             "The team built and tested the machine the following year.",
         ],
         "skills": ["Leadership", "Mechanism design", "Autodesk Inventor"],
-        "docs": [('design-and-make', 'design-and-make-report.pdf', 'Design and Make report (group)'), ('design-and-make', 'design-and-make-presentation.pdf', 'Make-phase presentation (group)')],
+        "docs": [('design-and-make', 'design-and-make-report.pdf', 'Design and Make Technical Report'), ('design-and-make', 'design-and-make-presentation.pdf', 'Design and Make Presentation')],
     },
     {
         "slug": "year-1", "chapters": ["university"], "cover": 1,
