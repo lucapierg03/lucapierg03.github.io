@@ -225,7 +225,7 @@ PROJECTS = [
         "skills": ["Experimental design", "Aerodynamics", "Literature review", "Research proposal"],
     },
     {
-        "slug": "lego-trent-xwb", "chapters": ["hobbies"], "cover": 1,
+        "slug": "lego-trent-xwb", "chapters": ["standout", "hobbies"], "cover": 1,
         "title": "LEGO Rolls-Royce Trent XWB replica",
         "card": "Over 1,000 pieces, with an openable cowling and a working thrust reverser.",
         "meta": "Personal project · Designed in BrickLink Studio",
@@ -257,7 +257,7 @@ PROJECTS = [
         "skills": ["Continuing airworthiness", "Service Bulletin evaluation", "Excel", "Attention to detail"],
     },
     {
-        "slug": "chargepoint", "chapters": ["professional"], "cover": 3,
+        "slug": "chargepoint", "chapters": ["standout", "professional"], "cover": 3,
         "title": "ChargePoint Technology: design placement",
         "card": "Sensor box halved, a 100 kg test frame, lifting points and new product development.",
         "meta": "ChargePoint Technology, Liverpool, UK · Design Engineer (placement) · Aug 2024 – Feb 2025",
@@ -305,7 +305,7 @@ PROJECTS = [
         "skills": ["Concept selection (MCDA)", "CAD", "Design for manufacture", "Hand calculations"],
     },
     {
-        "slug": "wing-design", "featured": True, "chapters": ["university"], "cover": 1,
+        "slug": "wing-design", "featured": True, "chapters": ["standout", "university"], "cover": 1,
         "title": "Wing design: mass-optimised composite wing panel",
         "card": "MATLAB optimisation of a Saab 340 wing panel. 72% (First).",
         "meta": "University of Bath · Wing Design (Year 3) · Autumn 2025",
