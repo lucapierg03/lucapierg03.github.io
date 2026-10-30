@@ -1770,7 +1770,7 @@
    "h": 945,
    "sw": 760,
    "sh": 399,
-   "cap": "Wingtip device geometry, with sine-wave serrations on the trailing edge."
+   "cap": "Wingtip outline from my Python script: filleted top corner (r = 50) and slanted sine-wave trailing-edge serrations aligned with the airflow."
   }
  ]
 }

@@ -307,4 +307,4 @@ del _md[-2:]
 IMGS["team-bath-drones"] = [(s, "Analysis of another candidate aerofoil." if s in (69, 70) else c) for s, c in IMGS["team-bath-drones"]]
 IMGS["shaft-design"] += [(D + "sd204a-hi.png", "Iteration 2 assembly drawing (A1)."),
                          (D + "sd204s-hi.png", "Iteration 2 shaft drawing with fit tolerances (A1).")]
-IMGS["final-year-project"] = [("/mnt/project-files/website/fyp-wingtip-geometry.png", "Wingtip device geometry, with sine-wave serrations on the trailing edge.")]
+IMGS["final-year-project"] = [("/mnt/project-files/website/fyp-wingtip-geometry.png", "Wingtip outline from my Python script: filleted top corner (r = 50) and slanted sine-wave trailing-edge serrations aligned with the airflow.")]

@@ -47,7 +47,7 @@ ABOUT = [
     "I worked in continuing airworthiness at Avia Seven and Marathon Airlines in Athens, assessing Service Bulletins "
     "and maintenance programmes for Embraer jets.",
     "At university I was project manager and technical integrator of VA-55, a hybrid VTOL crop-spraying drone. "
-    "This year my self-initiated final-year project investigates serrated wingtip devices, with wind-tunnel testing and CFD planned.",
+    "This year my self-initiated final-year project tests sine-wave serrations on a wingtip device in the wind tunnel, with Ansys CFD as an optional comparison.",
     "Outside engineering I design LEGO models, play volleyball, and record and produce my own music.",
 ]
 
@@ -130,7 +130,7 @@ EDUCATION = [
         "dates": "2022 – 2027",
         "points": [
             "Predicted First Class Honours.",
-            "Final-year project: serrated wingtip devices, with wind-tunnel testing and CFD planned.",
+            "Final-year project: serrated wingtip devices, tested in the wind tunnel with Ansys CFD as an optional comparison.",
             "Key modules: Aerodynamics, Aerospace Structures, Aircraft Performance and Design, Aircraft Propulsion, CFD, Rotorcraft Engineering, Spacecraft Engineering, Stability and Control.",
         ],
     },
@@ -207,22 +207,26 @@ PROJECTS = [
     {
         "slug": "final-year-project", "chapters": ["standout", "university"], "cover": 1, "stat": ("2027", "In progress"),
         "title": "Final-year project: serrated wingtip devices",
-        "card": "My self-initiated final-year project: can serrated edges on an airliner winglet weaken the tip vortex and cut drag?",
-        "meta": "University of Bath · Final Year Project · Supervisor: Dr Zhijing Wang · 2026 – 2027",
+        "card": "Testing whether sine-wave serrations on a winglet's leading, top and trailing edges can weaken the tip vortex and cut drag without losing lift.",
+        "meta": "University of Bath · Final Year Project · 2026 – 2027",
         "role": "Individual project, self-initiated",
-        "result": "In progress. Literature review under way; CAD, CFD and wind-tunnel testing planned. No results yet.",
-        "context": "Air leaking round a wingtip from the high-pressure underside to the low-pressure top forms tip vortices and lift-induced drag, a large share of an airliner's drag. Winglets reduce this, saving fuel and CO2. My project asks whether sine-wave serrations on the edges of an A350-style winglet can weaken the tip vortex, which matters for wake hazard and aircraft spacing, and reduce drag without losing lift.",
+        "result": "In progress: design and planning stage (October 2026); tips, wind tunnel tests and results follow in spring 2027.",
+        "context": "Wingtip vortices cause a large share of an airliner's drag and set how far apart aircraft must fly at airports. Winglets reduce this, and studies show that serrated or wavy edges can weaken the vortex further, but their effect on lift and drag is unsettled and no experiment has compared the leading, top and trailing edges on the same winglet. In my self-initiated final-year project at the University of Bath, I am testing an A350-style wingtip device with sine-wave serrations on each edge in an open-jet wind tunnel, measuring lift and drag and visualising the vortex with smoke.",
         "did": [
-            "Proposed the project myself.",
-            "Chose the variables: serrations on the top edge, the trailing edge and both, varying the sine wave's amplitude and frequency over a range of angles of attack.",
-            "Chose the A350 wingtip device as the baseline, and a test approach with interchangeable tips on one wind-tunnel model, supported by Ansys CFD.",
-            "Reviewing the literature on wingtip devices and serrated edges.",
+            "Came up with the project and wrote the student-led proposal, inspired by the serrated fins of humpback whales.",
+            "Reviewed the literature on wingtip devices and serrated edges, finding conflicting force results and no wind tunnel study of trailing-edge serrations on a winglet.",
+            "Wrote a parametric Python tool that generates the wingtip outline with plain or slanted sine-wave serrations, with the slanted humps lined up with the airflow.",
+            "Reshaped the method with my supervisor: an experiment-first study, leading edge first, using a rigid wing section with swappable tips.",
+            "Planning the tunnel tests: a force balance I will calibrate myself, smoke visualisation and repeat runs for uncertainty, with Ansys CFD as optional comparison.",
+            "Keeping a decision log and risk register so every change of scope has a recorded reason.",
         ],
         "sections": [
-            {"h": "Decisions so far", "imgs": [1],
-             "p": "I defined the serrations as sine waves set by amplitude and frequency: two continuous variables that make trends easy to see, and the closest published study found wavelength mattered more than waveform shape. I measure vortex strength and drag as separate outcomes, because a weaker vortex does not automatically mean less drag. And every tip fits the same model, so the wing and mounting stay identical and small drag differences come from the tip, not the set-up."},
+            {"h": "Geometry tool", "imgs": [1],
+             "p": "My Python script draws the side view of the wingtip device from a few inputs: bottom edge length, trailing-edge angle, height, top edge length and an optional fillet at the top corner. It adds sine-wave serrations to the top and trailing edges, either plain or slanted so that each hump lines up with the airflow, and fits a whole number of waves plus a half-wave on each edge. The serrations are centred on the original edge, so the device's area stays about the same between configurations and does not explain differences in lift and drag."},
+            {"h": "Decisions so far", "imgs": [],
+             "p": "I defined the serrations by amplitude and wavelength: two continuous variables that make trends easy to see, and the closest published study found wavelength mattered more than waveform shape. I measure the vortex and the forces as separate outcomes, because a weaker vortex does not automatically mean less drag. Every tip fits the same rigid wing section, so differences come from the tip, not the set-up. With my supervisor I chose the open-jet tunnel for easy tip swaps and smoke access, an experiment-only core method because it guarantees real results, and a test order of leading edge, then top edge, then trailing edge, each tested on its own before any combinations."},
         ],
-        "skills": ["Experimental design", "Aerodynamics", "Literature review", "Research proposal"],
+        "skills": ["Experimental design", "Aerodynamics", "Literature review", "Python (NumPy, Matplotlib)", "Research proposal", "Project planning"],
     },
     {
         "slug": "lego-trent-xwb", "chapters": ["standout", "hobbies"], "cover": 1,
