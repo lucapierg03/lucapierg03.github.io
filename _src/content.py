@@ -205,7 +205,7 @@ PROJECTS = [
         "docs": [("placement", "placement-report.pdf", "Placement Technical Report")],
     },
     {
-        "slug": "final-year-project", "chapters": ["standout", "university"], "cover": None, "stat": ("2027", "In progress"),
+        "slug": "final-year-project", "chapters": ["standout", "university"], "cover": 1, "stat": ("2027", "In progress"),
         "title": "Final-year project: serrated wingtip devices",
         "card": "My self-initiated final-year project: can serrated edges on an airliner winglet weaken the tip vortex and cut drag?",
         "meta": "University of Bath · Final Year Project · Supervisor: Dr Zhijing Wang · 2026 – 2027",
@@ -219,7 +219,7 @@ PROJECTS = [
             "Reviewing the literature on wingtip devices and serrated edges.",
         ],
         "sections": [
-            {"h": "Decisions so far", "imgs": [],
+            {"h": "Decisions so far", "imgs": [1],
              "p": "I defined the serrations as sine waves set by amplitude and frequency: two continuous variables that make trends easy to see, and the closest published study found wavelength mattered more than waveform shape. I measure vortex strength and drag as separate outcomes, because a weaker vortex does not automatically mean less drag. And every tip fits the same model, so the wing and mounting stay identical and small drag differences come from the tip, not the set-up."},
         ],
         "skills": ["Experimental design", "Aerodynamics", "Literature review", "Research proposal"],
